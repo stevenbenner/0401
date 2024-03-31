@@ -4,7 +4,7 @@ $(document).ready(() => {
 	$img[0].src = '/0401/2024/rick.jpg';
 	$img.css({
 		'display': 'none',
-		'position': 'absolute',
+		'position': 'fixed',
 		'top': '0',
 		'right': '0',
 		'min-width': '100%',
