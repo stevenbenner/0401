@@ -1,0 +1,35 @@
+#celica-coin-masthead {
+	background-color: #fff;
+	border: 2px solid #3882cb;
+	border-radius: 4px;
+	margin: 10px auto;
+	padding: 15px;
+	overflow: auto;
+	max-width: 900px;
+}
+#celica-coin-masthead * {
+	margin: 0;
+	padding: 0;
+}
+#celica-coin-masthead img {
+	float: left;
+	margin-right: 15px;
+}
+#celica-coin-masthead h4 {
+	color: #3882cb;
+	font-size: 1.2em;
+}
+#celica-coin-masthead p {
+	margin: 10px 0;
+}
+#celica-coin-masthead p.caveat {
+	font-size: 0.75em;
+	font-style: italic;
+	line-height: 1.1em;
+	margin: 4px 0 0;
+}
+#celica-coin-masthead span {
+	color: #00f;
+	text-decoration: underline;
+	cursor: pointer;
+}

@@ -1,0 +1,19 @@
+diff --git a/index.template.php b/index.template.php
+index d680a40..abbb089 100644
+--- a/index.template.php
++++ b/index.template.php
+@@ -176,2 +176,3 @@ function template_html_above()
+ 	echo '
++	<link rel="stylesheet" type="text/css" href="/0401/2025/celica-coin-masthead.css" />
+ </head>
+@@ -247,2 +248,10 @@ function template_body_above()
+ 
++	<div id="celica-coin-masthead">
++		<img src="/0401/2025/celica-coin-logo.png" width="87" height="100" />
++		<h4>Celica Coin - A cryptocurrency for car enthusiasts</h4>
++		<p>Introducing a new way to pay for your never-ending projects. Secured with blockchain technology and leveraging the power of smart contracts, <em>Celica Coin</em> puts the power of the internet in your next automotive project. For a limited time early adopters can get a bonus airdrop when exchanging <em>Celica Coin</em> with preferred partners<sup>†</sup>. Start your next project right with <em>Celica Coin</em>! <span>Click here to learn more and purchase</span> with Visa, MasterCard, or EBT.</p>
++		<p class="caveat"><sup>†</sup> Preferred partners list pending.</p>
++		<p class="caveat">* Celica Coin is not a security. Celica Coin is not approved for any purpose by any governing body. Developers reserve the right to retain all deposits. May or may not be redeemable. Subsequent distributions will occur when we need more money. Caveat emptor.</p>
++	</div>
++
+ 			';
